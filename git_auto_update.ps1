@@ -54,7 +54,7 @@ Perform-GitOperation "pull" $MaxRetries
 Perform-GitOperation "add -A" $MaxRetries
 
 # Commit the changes with a message
-Perform-GitOperation "commit -m 'New Notes'" $MaxRetries
+Perform-GitOperation "commit -m 'New Push'" $MaxRetries
 
 # Perform git push
 Perform-GitOperation "push" $MaxRetries
